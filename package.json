@@ -19,29 +19,8 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {
-        "productName": "bi-epub-reader",
-        "appId": "info.efcl.bi-epub-reader",
-        "asar": true,
-        "npmRebuild": false,
-        "files": [
-          "index.js",
-          "public/**/*",
-          "node_modules/**/*"
-        ],
-        "fileAssociations": {
-          "ext": "epub",
-          "name": "bi-epub-reader",
-          "role": "Viewer",
-          "mimeType": "application/xhtml+xml"
-        },
-        "publish": [
-          {
-            "provider": "github",
-            "releaseType": "release"
-          }
-        ]
-      },
+      "buildIdentifier": "info.efcl.bi-epub-reader",
+      "packagerConfig": {},
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",

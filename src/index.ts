@@ -7,7 +7,6 @@ import http from "http";
 import fs from "fs";
 import windowStateKeeper from "electron-window-state";
 import * as path from "path";
-
 declare const MAIN_WINDOW_WEBPACK_ENTRY: string
 declare const MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: string;
 
@@ -69,7 +68,7 @@ const createWindow = async () => {
             contextIsolation: true,
         },
     });
-    // and load the index.html of the app.
+    mainWindowState.manage(mainWindow);
     mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 };
 

@@ -1,8 +1,7 @@
 import { contextBridge, ipcRenderer } from "electron";
 
 export const API = {
-    loadBook() {
-        console.log("epub");
+    async loadBook() {
         return ipcRenderer.invoke("loadBook")
             .then(result => result)
             .catch(() => null)

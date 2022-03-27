@@ -19,4 +19,24 @@ declare const api: typeof API;
         const title = frameTitle.replace("EPUB Reader on your website.", "bi-epub-reader").replace("Published with Bibi", "bi-epub-reader");
         window.document.title = title;
     }, 1000)
+    const onLoadIframe = () => {
+        const iframeWindow = iframe.contentWindow as Window;
+        console.log("loaded");
+        iframeWindow.addEventListener("keyup", (event) => {
+            const key = event.key;
+            console.log(key);
+        });
+    }
+    const nextPage = () => {
+        const iframeWindow = iframe.contentWindow as any;
+        console.log("test")
+        if (iframeWindow.S["reader-view-mode"] === "paged") {
+        }
+    }
+    window.addEventListener("keydown", (event) => {
+        const key = event.key;
+        if (key === " ") {
+            nextPage();
+        }
+    });
 })()

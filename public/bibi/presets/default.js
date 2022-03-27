@@ -55,7 +55,7 @@ Bibi.preset({
     
     "orientation-border-ratio"   : 1 * 2 / 1.5, // Number (Width per Height)
     
-    "base-font-size"             : 20, // Number of pixel or "auto"
+    "base-font-size"             : 24, // Number of pixel or "auto"
     "font-size-scale-per-step"   : 1.25, // Number of scale
     "loupe-max-scale"            : 4, // Number of scale (minimum: 2)
     
@@ -63,8 +63,8 @@ Bibi.preset({
     
     "flipper-width"              : 0.3, // Number of ratio (lower than 1) or pixel (1 or higher)
     
-    "item-padding-left"          : 60, // Number of pixel (It is used only if the book is reflowable.)
-    "item-padding-right"         : 60, // Number of pixel (It is used only if the book is reflowable.)
+    "item-padding-left"          : 72, // Number of pixel (It is used only if the book is reflowable.)
+    "item-padding-right"         : 72, // Number of pixel (It is used only if the book is reflowable.)
     "item-padding-top"           : 40, // Number of pixel (It is used only if the book is reflowable.)
     "item-padding-bottom"        : 40, // Number of pixel (It is used only if the book is reflowable.)
     

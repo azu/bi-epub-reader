@@ -2,6 +2,18 @@
 
 Epub reader application using [Bibi](https://bibi.epub.link/).
 
+## Installation
+
+1. Download [latest binary](https://github.com/azu/bi-epub-reader/releases/latest)
+2. Open app
+
+:warning: This app is not signed. So, Your OS show warning about it.
+
+E.g. Additional installation steps on macOS:
+
+1. Select `bi-epub-reader.app`
+2. Open context menu and Click "Open"
+
 ## Contributing
 
 1. Fork it!

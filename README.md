@@ -2,6 +2,11 @@
 
 Epub reader application using [Bibi](https://bibi.epub.link/).
 
+## Features
+
+- Beautiful epub viewer
+- Open file as associated file type
+
 ## Installation
 
 1. Download [latest binary](https://github.com/azu/bi-epub-reader/releases/latest)

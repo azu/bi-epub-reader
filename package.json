@@ -10,9 +10,9 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx .",
-    "release:patch": "npm version patch && git push --all && gh release create v$(npm pkg get version | tr -d '\"') --generate-notes",
-    "release:minor": "npm version minor && git push --all && gh release create v$(npm pkg get version | tr -d '\"') --generate-notes",
-    "release:major": "npm version major && git push --all && gh release create v$(npm pkg get version | tr -d '\"') --generate-notes"
+    "release:patch": "npm version patch && git push --all && gh release create v$(npm pkg get version | tr -d '\"') --target $(git symbolic-ref --short HEAD) --generate-notes",
+    "release:minor": "npm version minor && git push --all && gh release create v$(npm pkg get version | tr -d '\"') --target $(git symbolic-ref --short HEAD) --generate-notes",
+    "release:major": "npm version major && git push --all && gh release create v$(npm pkg get version | tr -d '\"') --target $(git symbolic-ref --short HEAD) --generate-notes"
   },
   "keywords": [],
   "author": {

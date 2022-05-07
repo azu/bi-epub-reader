@@ -8,7 +8,7 @@ Epub reader application using [Bibi](https://bibi.epub.link/).
 - Open file as associated file type
 - Standalone application
 
-You can see demo on [BiBi website](https://bibi.epub.link/).
+You can see a demo on [BiBi website](https://bibi.epub.link/).
 
 ## Installation
 

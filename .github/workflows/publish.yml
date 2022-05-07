@@ -4,6 +4,9 @@ on:
     types:
       - created
 
+permissions:
+  contents: write
+
 jobs:
   publish:
     runs-on: ${{ matrix.os }}

@@ -9,7 +9,10 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "eslint --ext .ts,.tsx ."
+    "lint": "eslint --ext .ts,.tsx .",
+    "release:patch": "npm vesrion patch && gh release create --generate-notes",
+    "release:minor": "npm vesrion minor && gh release create --generate-notes",
+    "release:major": "npm vesrion major && gh release create --generate-notes"
   },
   "keywords": [],
   "author": {

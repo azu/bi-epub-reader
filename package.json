@@ -1,7 +1,7 @@
 {
   "name": "bi-epub-reader",
   "productName": "bi-epub-reader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {

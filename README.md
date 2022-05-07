@@ -9,7 +9,7 @@ Epub reader application using [Bibi](https://bibi.epub.link/).
 
 :warning: This app is not signed. So, Your OS show warning about it.
 
-E.g. Additional installation steps on macOS:
+For example, Additional installation steps on macOS:
 
 1. Select `bi-epub-reader.app`
 2. Open context menu and Click "Open"

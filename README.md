@@ -22,6 +22,17 @@ For example, Additional installation steps on macOS:
 1. Select `bi-epub-reader.app`
 2. Open context menu and Click "Open"
 
+## Develop
+
+    cp /path/to/example-test.epub ./test.epub
+    npm start
+
+## Releases
+
+    npm run release:patch
+    npm run release:minor
+    npm run release:major
+
 ## Contributing
 
 1. Fork it!

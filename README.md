@@ -45,4 +45,4 @@ For example, Additional installation steps on macOS:
 
 MIT
 
-This application includes [Bibi](https://bibi.epub.link/).
+This application includes [Bibi](https://bibi.epub.link/) that is licensed MIT.
